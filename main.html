@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <Style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body{
+            background-color: #081b29;
+            color: #ededed;
+
+        }
+        header{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 10%;
+            background: transparent;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+        .logo{
+            font-size: 25px;
+            color: #ededed;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .navbar a{
+            font-size: 18px;
+            color: #ededed;
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 35px;
+            transition: .3s;
+
+        }
+        .navbar a:hover,
+        .navbar a:active{
+            color: #00abf0;
+        }
+        .home{
+            height: 100vh;
+            background: url('myimage.png') no-repeat;
+            background-size: 800px 800px;
+            background-position: right;
+            display: flex;
+            align-items: center;
+            padding: 0 10%;
+
+        }
+        .home-content{
+            max-width: 600px;
+        }
+        .home-content h1{
+            font-size: 50px;
+            font-weight: 700;
+
+        }
+        .home-content h3{
+            font-size: 32px;
+            font-weight: 700px;
+            color: #00abf0;
+        }
+        .home-content p{
+            font-size: 16px;
+        }
+
+
+
+    </Style>
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#" class="logo">Caloy.</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#contact">Contact</a>
+    </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h1>HELLO!</h1>
+            <h1>I'm John Carlo<span> Ramos</span></h1>
+            <h3>BSIT-3rd Year College</h3>
+            <p>Take a look at all the technology surrounding you. If the inventors of each hadn’t tried one more time, where would we be? It’s certain that your dreams will dissolve if you give up. However, there’s always hope and possibility if you keep trying.</p>
+
+        </div>
+    </section>
+
+
+
+</body>
+</html>
